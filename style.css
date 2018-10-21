@@ -1,0 +1,13 @@
+.products {
+
+}
+
+.product-card {
+  height: 255px;
+  margin: 15px;
+  object-fit: contain;
+  background-image: url("images/index-1/product-placeholder.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+

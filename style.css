@@ -2,12 +2,34 @@
 
 }
 
+.container{
+  
+}
+
+
+.row {
+ 
+}
+
+.container-fluid{
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 .product-card {
-  height: 255px;
+  width:75px;
+  height: 200px;
   margin: 15px;
-  object-fit: contain;
-  background-image: url("images/index-1/product-placeholder.jpeg");
+  object-fit: cover;
+  background-image: url("images/landing/product-placeholder.jpeg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  
+}
+
+.col-md-2{
+ flex: 0 0 275px;
+ max-width: 300px;
 }
 

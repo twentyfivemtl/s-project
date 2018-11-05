@@ -1,3 +1,3 @@
-$(".container").on('click',function(){
+$(".product-card").on('click',function(){
     $(this).children(".overlay").toggleClass("show");
 });
